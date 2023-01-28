@@ -1,0 +1,157 @@
+/* Header */
+
+
+.otstup {
+    display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+  }
+  
+  .menu {
+      flex-wrap: wrap;
+      width: 100%;
+      display: flex;
+      max-width: 1300px;
+ 
+      background-color: #213B7E;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 0 15px;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .menu > li {
+      display: flex;
+  }
+  
+  .ul {
+      flex-wrap: wrap;
+      list-style: none;
+      display: flex;
+      align-self: stretch;
+      padding: 0;
+      margin: 0;
+  }
+  
+  li {
+      list-style-type: none;
+  }
+  
+  
+  .link {
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      padding: 0 18px;
+      background-color: #213B7E;
+      color: #FFFFFF;
+      text-decoration-line: underline;
+      font-weight: 400;
+      font-size: 20px;
+  }
+  
+  .link:hover {
+      background-color: #FFFFFF;
+      color: #213B7E;
+      text-decoration-line: none;
+  }
+  
+  
+  .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      font-size: 18px;
+      color: #FFFFFF;
+      text-decoration: none;
+      background-color: #EA5D21;
+      width: 153px;
+      min-height: 50px;
+  }
+  
+  /* Main */
+  
+  
+  .main {
+      width: 100%;
+      max-width: 911px;
+      margin: 0 auto;
+      flex-grow: 1;
+  }
+  
+  .photo {
+      width: 100%;
+      max-width: 523px;
+      height: 316px;
+  }
+  
+  .heading {
+      font-family: "roboto";
+      font-style: normal;
+      font-size: 30px;
+  }
+  
+  h2 {
+      font-family: "roboto";
+      font-style: normal;
+      font-size: 25px;
+      font-weight: 400;
+  }
+  
+  .text1 {
+      width: 100%;
+      max-width: 634px;
+      font-family: "roboto";
+      font-style: normal;
+      font-size: 18px;
+  }
+  
+  .text2 {
+      width: 100%;
+      max-width: 634px;
+      font-family: "roboto";
+      font-style:normal;
+      font-size: 18px;
+  }
+  
+  /* Footer */
+  
+  .footer {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      box-sizing: border-box;
+      min-height: 60px;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 16px;
+     
+      justify-content: center;
+      align-items: center;
+      background-color: #213B7E;
+  }
+  
+  .copyright {
+      color: rgba(255, 255, 255, 0.5);
+      font-family: roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+  
+  }
+  
+  .innop-link {
+      color: rgba(255, 255, 255, 0.5);
+      font-family: roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+  
+  }
+  
+  em {
+      color: rgba(207, 85, 16, 1)
+  }
