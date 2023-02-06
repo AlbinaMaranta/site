@@ -88,7 +88,6 @@ li {
     background: #FFFFFF;
     border: 1px solid #213B7E;
     background-color: #FFFFFF;
-   /* чтобы попап был невиден до клика на кнопку */
     display: none;
 }
 
@@ -235,8 +234,6 @@ em {
     background-color: #FFFFFF;
     text-decoration: none;
 }
-
-/* Чтобы был виден попап */
 
 .show-popup {
     display: block;
