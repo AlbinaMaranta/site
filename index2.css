@@ -242,21 +242,20 @@ em {
     display: block;
 }
 
-/* Students */
 
-.students {
+/* 5 контейнеров с картинками */
+.column {
+    padding: 10px;
+    margin: 0;
+}
+
+.row {
+    flex-wrap: wrap;
     max-width: 1200px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
 }
 
-.students-name {
+.student-name {
     display: block;
     text-align: center;
-}
-
-.student {
-    padding-left: 50px;
 }

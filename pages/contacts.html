@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Сайт группы</title>
+    <link rel="stylesheet" href="./index2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script async src="./popup.js"></script>
 </head>
-<body>
-    <h1>Контакты</h1>
-</body>
-</html>
 
+<body class="otstup">
+    <header class="menu">
+        <img src="./logo.svg" alt="логотип">
+        <ul class="ul">
+            <li><a class="link" href="../index.html">Главная</a></li>
+            <li><a class="link" href="../pages/students2.html">Студенты</a></li>
+            <li><a class="link" href="../pages/about.html">О курсе</a></li>
+            <li><a class="link" href="#">Контакты</a></li>
+        </ul>
+        <a class="button">Войти</a>
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин">
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <h1 class="zagolovok2">Как нас найти</h1>
+        <img class="map" src="./goole-map 1.png" alt="карта">
+        <p class="contacts">Наши контакты</p>
+        <p class="adress">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000 </p>
+        <p class="phone">Тел: +7 (812) 555-55-55</p>
+    </main>
+    <footer class="footer">
+        <p class="copyright">
+            2022 &copy; <a href="" class="innop-link"> учебный центр </a>
+        </p>
+    </footer>
+</body>

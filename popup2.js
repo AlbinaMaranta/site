@@ -1,3 +1,5 @@
+// Чтобы попап появлялся по клику на кнопку (начало)
+
 let button = document.querySelector('.button');
 let loginPopup = document.querySelector('.login-popup');
 
@@ -12,3 +14,5 @@ function showPopup(evt) {
 
     loginPopup.classList.toggle('show-popup')
 };
+// Чтобы попап появлялся по клику на кнопку (конец)
+

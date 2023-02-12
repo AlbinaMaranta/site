@@ -242,21 +242,109 @@ em {
     display: block;
 }
 
-/* Students */
 
-.students {
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
+/* 5 контейнеров с картинками */
+.column {
+    padding: 10px;
+    margin: 0;
 }
 
-.students-name {
+.row {
+    flex-wrap: wrap;
+    max-width: 1200px;
+    display: flex;
+}
+
+.student-name {
     display: block;
     text-align: center;
 }
 
-.student {
-    padding-left: 50px;
+.zagolovok1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-left: 286px;
+    margin-top: 33px;
+    width: 147px;
+    height: 35px;
+}
+
+.paragraf1 {
+    width: 288px;
+    height: 29px;
+    margin-left: 286px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.photo-o-kurse {
+    flex-wrap: wrap;
+    height: 549.330078125px;
+    width: 820px;
+    margin-left: 286px;
+    border-radius: 0px;
+    margin-right: 334px;
+    margin-bottom: 313.67px;
+
+}
+
+.zagolovok2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-left: 286px;
+    margin-top: 33px;
+    width: 236px;
+    height: 35px;  
+}
+
+.map {
+    margin-left: 86px;
+    width: 1200px;
+}
+
+.contacts {
+    width: 185px;
+    height: 29px;
+    margin-left: 288px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.adress {
+    width: 439px;
+    margin-left: 288px;
+    height: 63px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.phone {
+    margin-bottom: 420px;
+    width: 439px;
+    margin-left: 288px;
+    height: 63px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
