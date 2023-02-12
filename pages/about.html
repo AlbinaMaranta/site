@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Сайт группы</title>
+    <link rel="stylesheet" href="./index2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script async src="./popup.js"></script>
 </head>
+
 <body>
-    <h1>О курсе</h1>
-</body>
+    <body class="otstup">
+        <header class="menu">
+            <img src="./logo.svg" alt="логотип">
+            <ul class="ul">
+                <li><a class="link" href="../index.html">Главная</a></li>
+                <li><a class="link" href="../pages/students2.html">Студенты</a></li>
+                <li><a class="link" href="#">О курсе</a></li>
+                <li><a class="link" href="../pages/contacts.html">Контакты</a></li>
+            </ul>
+            <a class="button">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-form">
+                    <input class="login-input" name="login" type="text" placeholder="Логин">
+                    <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <h1 class="zagolovok1">О курсе</h1>
+            <p class="paragraf1"> Посмотрите видео о нас</p>
+            <img class="photo-o-kurse" src="video 1.svg" alt="видео о курсе">
+
+        </main>
+        <footer class="footer">
+            <p class="copyright">
+                2022 &copy; <a href="" class="innop-link"> учебный центр </a>
+            </p>
+        </footer>
+    </body>
+
 </html>
